@@ -13,3 +13,11 @@ for (let i = 0; i < scores.length; i++) {
 
   scores[i]++
 }
+
+
+for (let i = 0; i < mostlyOne.length; i++) {
+  if (mostlyOne[i] !== 1) {
+    notOne = mostlyOne[i]
+    break
+  }
+}
