@@ -1,8 +1,7 @@
 function breakout(array, changeValue, stopValue) {
   for (let i = 0; i < array.length; i++) {
-    if (criteriaFunc(array[i])) {
-      return array[i]
-    }
+    if (array[i] == stopValue)
+      break
   }
 }
 
