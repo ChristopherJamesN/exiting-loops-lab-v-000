@@ -16,10 +16,11 @@ function keepGoing(array, changeValue, skipValue) {
   }
 }
 
-
-for (let i = 0; i < mostlyOne.length; i++) {
-  if (mostlyOne[i] !== 1) {
-    notOne = mostlyOne[i]
-    break
+function findBy(array, findFn) {
+  for (let i = 0; i < mostlyOne.length; i++) {
+    if (mostlyOne[i] !== 1) {
+      notOne = mostlyOne[i]
+      break
+    }
   }
 }
